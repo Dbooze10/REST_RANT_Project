@@ -11,6 +11,11 @@ app.get('/', (req, res) => {
     res.render('home')
 })
 
+app.get('/', (req, res) => {
+    let places = []
+    res.render('places/index')
+})
+
 app.get('*', (req, res) => {
     res.render('error404')
 })
