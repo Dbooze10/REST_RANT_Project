@@ -1,4 +1,4 @@
-places = [{
+module.exports = [{
     name: 'H-Thai-ML',
     city: 'Seattle',
     state: 'WA',
@@ -12,4 +12,3 @@ places = [{
     pic: '/images/meat2.jpg'
   }]
 
-module.exports = places
